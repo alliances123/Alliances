@@ -1,0 +1,1422 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Tajawal', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(247, 247, 254);
+}
+
+header {
+    height: 6rem;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    margin-bottom: 10rem;
+}
+
+.iconup {
+    color: white;
+}
+
+nav {
+    width: 100%;
+    height: 7rem;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.bars {
+    position: absolute;
+    left: 3rem;
+    font-size: 1.5rem;
+}
+
+#bars{
+    display: none;
+}
+
+#bars:hover {
+    cursor: pointer;
+}
+#bars:focus {
+    color: rgb(233, 0, 144);
+}
+
+h2 {
+    display: flex;
+}
+
+h2 li {
+    margin: 0 1rem;
+    color: black;
+}
+
+h2 li:hover {
+    color: rgb(0, 203, 203);
+    cursor: pointer;
+}
+
+.nav {
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    position: relative;
+}
+
+#bars {
+    color: rgb(172, 172, 172);
+}
+
+#img {
+    height: 4rem;
+    width: auto;
+    margin-right: 0.5rem;
+}
+
+.brand:hover {
+    cursor: context-menu;
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+}
+
+#brandalliance {
+    font-size: 2rem;
+}
+
+.divbrand{
+    background-color: blueviolet;
+    width: 200rem;
+    height: 6rem;
+    position: relative; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.divkollelement {
+    width: 20%;
+    height: 5rem;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    right: 0;
+}
+
+.moveallbrand{
+    position: relative;
+    left: 3rem;
+    width: 10%;
+    display: flex;
+    align-items: center;
+}
+
+.user {
+    position: absolute;
+    right: 3rem;
+}
+
+#user {
+    font-size: 2rem;
+    color: rgb(156, 156, 156);
+}
+
+#user:hover {
+    cursor: pointer;
+    color: rgb(113, 113, 113);
+}
+
+.btnbublish {
+    width: 8rem;
+    height: 3rem;
+    position: absolute;
+    right: 6rem;
+}
+
+.btnPublish {
+    display: flex;
+    width: 8rem;
+    height: 3rem;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.9rem;
+    border-radius: 7px;
+    border: none;
+    background-color: rgb(233, 0, 109);
+    color: white;
+}
+
+.btnPublish:hover {
+    cursor: pointer;
+    background-color: rgb(202, 0, 94);
+}
+
+#up {
+    font-size: 1.2rem;
+}
+
+
+#Publish {
+    margin-left: 0.5rem;
+}
+
+.print {
+    color: rgb(0, 170, 208);
+    position: absolute;
+    right: 15.5rem;
+    font-size: 1.3rem;
+    display: flex;
+    align-items: center;
+}
+
+.print:hover {
+    cursor: pointer;
+    color: rgb(0, 133, 163);
+}
+
+.container {
+    position: relative;
+    top: 8rem;
+    width: 95%;
+    height: 398.9rem;
+    background-color: white;
+    border-radius: 40px;
+    border: 1px solid rgb(226, 226, 226);
+    box-shadow: 0 0 10px 10px rgb(235, 235, 235);
+}
+
+.headerofcontainer {
+    background-color: rgb(246, 246, 246);
+    width: 100%;
+    height: 8rem;
+    border-radius: 40px 40px 0 0;
+    border-bottom: 1px solid rgb(226, 226, 226);
+}
+
+.inputLink {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 1rem;
+}
+
+#inputLink {
+    width: 95%;
+    height: 3.5rem;
+    border-radius: 30px;
+    border: 1px solid rgb(226, 226, 226);
+}
+
+.domian {
+    position: relative;
+    top: 5rem;
+    display: flex;
+    color: rgb(233, 0, 144);
+    font-size: 1.5rem;
+    justify-content: center;
+    align-items: center;
+    height: 3rem;
+}
+
+.enterdomain {
+    display: flex;
+    height: 1rem;
+    align-items: center;
+}
+
+.enterdomain:hover {
+    cursor: pointer;
+    color: rgb(209, 1, 129);
+}
+
+#domian {
+    margin-left: 0.5rem;
+}
+
+.headeralliance {
+    position: relative;
+    top: 10rem;
+    width: 100%;
+    height: 50rem;
+    display: flex;
+}
+
+#headeralliance {
+    font-size: 5rem;
+    position: absolute;
+    left: 5rem;
+    font-family: 'Tajawal', sans-serif;
+}
+
+#headeralliance .dot {
+    color: rgb(0, 81, 255);
+    font-size: 5rem;
+    position: relative;
+}
+
+.kalamallaince {
+    color: rgb(129, 129, 129);
+    font-size: 3rem;
+    position: absolute;
+    top: 8rem;
+    left: 5rem;
+    width: 50rem;
+}
+
+.inputemail {
+    width: 90%;
+    margin: 0;
+}
+
+#inputemail {
+    width: 17rem;
+    height: 3rem;
+    border-radius: 5px;
+    border: 1px solid rgb(172, 172, 172);
+    margin-bottom: 0.5rem;
+}
+
+#inputemail:hover {
+    border-color: rgb(126, 126, 126);
+}
+
+#btnjoin {
+    width: 10rem;
+    height: 3rem;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(5, 103, 216);
+    color: white;
+    font-size: 1.5rem;
+}
+
+.btnjoin {
+    width: 90%;
+}
+
+#btnjoin:hover {
+    cursor: pointer;
+    background-color: rgb(2, 77, 163);
+}
+
+.kollenterure {
+    position: absolute;
+    top: 40rem;
+    left: 5rem;
+}
+
+::-webkit-input-placeholder {
+    font-size: 1.2rem;
+    position: relative;
+    left: 1.6rem;
+    color: rgb(124, 124, 124);
+}
+
+:focus {
+    outline-color: rgb(190, 190, 190);
+}
+
+#imgkon {
+    height: 40rem;
+    position: absolute;
+    right: 0rem;
+    top: -5rem;
+}
+
+#imgheader2{
+    height: 5rem;
+    width: auto;
+    border-radius: 50%;
+    border: 2px solid rgb(25, 0, 255);
+    margin-right: 1rem;
+}
+
+.header2{
+    display: flex;
+    position: absolute;
+    top: 70rem;
+    left: 3rem;
+}
+
+.h6{
+    font-size: 1rem;
+    color: rgb(155, 155, 155);
+}
+
+#sora2{
+    width: 80rem;
+    position: absolute;
+    z-index: 0;
+}
+
+.sora2{
+    position: absolute;
+    top: 80rem;
+    width: 100%;
+    height: 0rem;
+    display: flex;
+    justify-content: center;
+}
+
+.headerkalam2 h6{
+    color: black;
+    font-size: 3.5rem;
+    display: block;
+}
+
+.headerkalam2 {
+    height: 65rem;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 130rem;
+    left: 5rem;
+}
+
+.headerkalam2 p{
+    font-size: 2rem;
+    color: rgb(121, 121, 121);
+}
+
+.dot2{
+    color: rgb(0, 81, 255);
+}
+
+#headerkalam2 {
+    display: block;
+}
+
+.img3{
+    width: 80rem;
+}
+
+.kalam3{
+    height: 60rem;
+    width: 90%;
+    position: absolute;
+    top: 190rem;
+    left: 5rem;
+    display: flex;
+    align-items: center;
+}
+
+.headerkalam3 h6{
+    color: black;
+    font-size: 3rem;
+}
+
+.headerkalam3 p{
+    font-size: 1.5rem;
+    color: rgb(121, 121, 121);
+}
+
+#sora4{
+    width: 80rem;
+    height: auto;
+}
+
+.part4{
+    position: relative;
+    height: 10rem;
+}
+
+.part4backgroundimg{
+    background-image: url(image.png);
+    width: 100%;
+    height: 50rem;
+    position: relative;
+    top: 200rem;
+    display: flex;
+    justify-content: center;
+}
+
+.part4backgroundimg h1{
+    color: white;
+    position: relative;
+}
+
+.h1part4{
+    width: 50rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 20rem;
+    font-size: 2rem;
+    width: 100%;
+    height: 30rem;
+}
+
+.Showcase{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    left: 0;
+}
+
+.presentation{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    left: 0;
+}
+
+.footerpart4{
+    width: 100%;
+    height: 20rem;
+    height: 10rem;
+    position: absolute;
+    top: 30rem;
+}
+
+.sortkoll{
+    width: 6rem;
+    height: 6rem;
+    border-radius: 50%;
+    border: 2px solid rgb(25, 0, 255);
+    margin: 1rem;
+}
+
+.sortpart4{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.kalamsortpart4{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.part5community{
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: center;    
+    top: 332rem;
+}
+
+#part5community{
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    height: 60rem;
+    border: 1px solid rgb(25, 0, 255);
+    border-radius: 35px;
+    background-image: url(bc.png);
+    background-size: cover;
+    box-shadow: 0 0 10px 10px rgb(235, 235, 235);
+}
+
+.secondimages3{
+    display: flex;
+    justify-content: center;
+}
+
+.imagspart5{
+    position: absolute;
+    top: 3rem;
+}
+
+.kalampart5{
+    height: 10rem;
+    position: absolute;
+    top: 30rem;
+    font-size: 2.5rem;
+}
+
+.one{
+    position: relative;
+    left: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.two{
+    position: relative;
+    left: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.three{
+    position: relative;
+    left: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.btnbart5{
+    position: relative;
+    width: 100%;
+    height: 10rem;
+    top: 51rem;
+}
+
+.btnjoin2{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 0.5rem;
+}
+
+.inputemail2{
+    display: flex;
+    justify-content: center;
+}
+
+#inputemail2{
+    width: 15rem;
+    height: 2.5rem;
+    border-radius: 5px;
+    border: 1px solid rgb(150, 150, 150);
+}
+
+#inputemail2:hover{
+    border-color: rgb(75, 75, 75);
+}
+
+#btnjoin2{
+    width: 10rem;
+    height: 2.5rem; 
+    border-radius: 5px;
+    border: 1px solid transparent;
+    background-color: rgb(5, 103, 216);
+}
+
+#btnjoin2 h6{
+    font-size: 0.9rem;
+    color: white;
+}
+
+#btnjoin2:hover{
+    cursor: pointer;
+    background-color: rgb(2, 77, 163);
+}
+
+.emptydiv{
+    background-color: rgb(240, 237, 237);
+    width: 35%;
+    height: 74.5rem;
+    position: absolute;
+    top: 324.4rem;
+    border-radius: 0 50px 50px 30px;
+}
+
+.Connectwithus{
+    display: none;
+}
+
+.Visualsdisplaynone{
+    display: flex;
+}
+
+
+/* response */
+
+@media (max-width: 1680px){
+    .kalamallaince{
+        width: 40rem;
+    }
+    
+    .br{
+        display: none;
+    }
+}
+
+@media (max-width: 1578px){
+    #sora4 , .img3{
+        width: 70rem;
+    }
+}
+
+@media (max-width: 1552px){
+    #sora2{
+        width: 70%;
+    }
+    #sora4 , .img3{
+        width: 50rem;
+    }
+    
+    .h1part4{
+        font-size: 1.8rem;
+    }
+    
+    .one , .two , .three{
+        font-size: 3rem;
+    }
+    
+    .btnbart5{
+        top: 45rem;
+    }
+    
+    #imgkon{
+        width: 40rem;
+        height: auto;
+    }
+    
+    .kalamallaince{
+        width: 30rem;
+    }
+}
+
+@media (max-width: 1114px){
+    
+    #imgkon{
+        width: 35rem;
+    }
+    
+    #sora4 , .img3{
+        width: 40rem;
+    }
+    
+    .h1part4{
+        font-size: 1.7rem;
+    }
+}
+
+@media (max-width: 1098px){
+    .kalamallaince{
+        width: 25rem;
+    }
+    
+    .kollenterure{
+        top: 42rem;
+    }
+    
+    .sortkoll{
+        width: 5rem;
+        height: 5rem;
+    }
+    
+    #footerpart4{
+        position: relative;
+        top: -4rem;
+    }
+    
+    .headerkalam2 h6{
+        font-size: 4rem;
+    }
+    
+    .headerkalam2{
+        display: block;
+    }
+    
+    #sora4 , .img3{
+        width: 90%;
+        position: relative;
+    }
+    
+    #img3{
+        width: 80%;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .kalam3{
+        display: block;
+    }
+    
+    #headerkalam3 h6{
+        font-size: 4rem;
+    }
+    
+    .kalamallaince{
+        width: 40rem;
+    }
+    
+    .headeralliance{
+        display: inline-block;
+    }
+    
+    .imgkon{
+        width: 100%;
+        height: 50rem;
+        position: absolute;
+        top: 35rem;
+        display: flex;
+        justify-content: center;
+    }
+    
+    #imgkon{
+        right: auto;
+        width: 50rem;
+    }
+    
+    .kollezahaa{
+        position: relative;
+    }
+    
+    #sora2{
+        width: 70%;
+    }
+    
+    .part4backgroundimg{
+        top: 0rem;
+    }
+    
+    .container{
+        height: 457.4rem;
+    }
+    
+    .part4{
+        position: relative;
+        top: 250rem;
+    }
+}
+    
+@media (max-width: 1072px){
+
+    header{
+        height: 5rem;
+    }
+
+    nav{
+        height: 5rem;
+    }
+    
+    .brand {
+        display: flex;
+        position: absolute;
+        width: 48rem;
+        left: 10rem;
+    }
+    
+    .moveallbrand{
+        left: 3rem;
+        position: relative;
+        width: 50rem;
+    }
+    
+    .brand {
+        left: 6rem;
+    }
+    
+    h2{
+        display: block;
+    }
+    
+    li a{
+        color: white;
+        margin: 2rem 0;
+    }
+    
+    .bars{
+        width: 4rem;
+        height: 4rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    #bars{
+        display: flex;
+        position: absolute;
+    }
+    
+    .nav{
+        position: relative;
+        justify-content: center;
+        top: 12rem;
+        left: 3rem;
+        z-index: 1;
+        background-color: rgb(233, 0, 144);
+        width: 13rem;
+        height: 20.3rem;
+        border-radius: 20px;
+        box-shadow: 0 0 5px 2px rgb(255, 168, 204);
+        width: 187.94px;
+    }
+    
+    .down , .Communicate , .print1{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 187.94px;
+        height: 65px;
+        margin: 0;
+    }
+
+    .Connectwithus{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 65px;
+        margin: 0;
+    }
+    
+    .home {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .down :hover , .Communicate :hover ,  .print1:hover {
+        height: 65px;
+        top: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .Connectwithus :hover ,.down :hover , .Communicate :hover ,  .print1 li a:hover , .home li a:hover {
+        color: aqua;
+    }
+    
+    header{
+        position: fixed;
+        z-index: 1;
+        background-color: rgb(214, 212, 212);
+    }
+    
+}
+
+@media (max-width: 811px){
+    .h1part4{
+        font-size: 1.5rem;
+    }
+    
+    .imgkon{
+        width: 100%;
+    }
+    
+    #imgkon{
+        width: 45rem;
+        top: 5rem;
+    }
+    
+    .sortkoll{
+        width: 4rem;
+        height: 4rem;
+    }
+
+    .imagspart5{
+        top: 8rem;
+        position: absolute;
+    }
+    
+    #headerkalam2 h6{
+        width: 30rem;
+    }
+    
+    .brand{
+        width: 20rem;
+    }
+}
+
+@media (max-width: 743px){
+    
+    .h1part4{
+        font-size: 1.4rem;
+    }
+    
+    #headerkalam3{
+        width: 35rem;
+    } 
+    
+    .kalamallaince{
+        width: 30rem;
+        font-size: 2.5rem;
+    }
+    
+    #headeralliance{
+        font-size: 4rem;
+    }
+
+    #imgkon{
+        width: 40rem;
+    }
+    
+    .part1{
+        position: relative;
+        top: 40rem;
+        width: 100%;
+        height: 40rem;
+    }
+
+    .header2{
+        top: 0;
+    }
+    
+    .sora2{
+        top: 10rem;
+    }
+    
+    .kalam2{
+        position: absolute;
+        top: -40rem;
+        width: 100%;
+    }
+    
+    .kalam3{
+        position: absolute;
+        top: 150rem;
+    }
+    
+    .part4{
+        top: 170rem;
+    }
+    
+    .part5community{
+        top: 280rem;
+    }
+    
+    .emptydiv{
+        top: 272.5rem;
+    }
+    
+    .container{
+        height: 300rem;
+    }
+}
+
+@media (max-width: 670px){
+    #headerkalam3{
+        width: 30rem;
+    }
+    
+    .kalam3{
+        width: 80%;
+    }
+    
+    .h1part4{
+        font-size: 1.2em;
+    }
+    
+    .print , .user{
+        /* display: none; */
+    }
+    
+    #imgkon{
+        width: 35rem;
+    }
+}
+    
+@media (max-width: 583px){
+    
+    .kalamallaince , #headerkalam3 p , #headerkalam3 h6 , .headerkalam2 , #headerkalam2 h6{
+        width: 25rem;
+        font-size: 3rem;
+    }
+    
+    #headerkalam2 h6{
+        width: 25rem;
+    }
+    #headerkalam3 p , #headerkalam2 p {
+        font-size: 1.5rem;
+    }
+    
+    .kalamallaince{
+        font-size: 2.5rem;
+    }
+    
+    .print{
+        display: none;
+    }
+    
+    .brand{
+        left: 3.5rem;
+        width: 0;
+    }
+    
+    #headerkalam3{
+        width: 20rem;
+    }
+    
+    .sortkoll{
+        width: 3rem;
+        height: 3rem;
+    }
+    
+    .kalampart5 div{
+        font-size: 2.5rem;
+    }
+    
+    #imgkon{
+        width: 30rem;
+    }
+    
+    .h1part4  {
+        font-size: 1rem;
+    }
+
+    .bars , .nav {
+        left: 1rem;
+    }
+
+    .brand{
+        left: 1.5rem;
+    }
+
+    .img3{
+        width: 389.75px;
+    }
+
+    #img3{
+        width: 80%;
+    }
+
+}
+    
+@media (max-width: 529px){
+    
+    .ammazing{
+        display: none;
+    }
+    
+    .user{
+        display: none;
+    }
+    
+    .btnbublish{
+        right: 2rem;
+    }
+
+    
+    #imgheader2{
+        width: 4rem;
+        height: 4rem;
+    }
+    
+    .domian{
+        font-size: 1.3rem;      
+    }
+    
+    #inputLink{
+        height: 3rem;
+        top: 0.2rem;
+        position: absolute;
+    }
+    
+    .kalamallaince{
+        font-size: 2rem;
+    }
+    
+    #headeralliance{
+        font-size: 3.5rem;
+    }
+    
+    #img{
+        width: 3rem;
+        height: auto;
+    }
+    
+    .bars{
+        left: 1rem;
+    }
+    
+    .brand{
+        left: 1.5rem;
+    }
+    
+    .kalamheader2 h1{
+        font-size: 1.7rem;
+    }
+    
+    .sora2{
+        top: 15rem;
+    }
+    
+    .img3 , #sora4{
+        width: 351.78px;
+        height: auto;
+        top: 5rem;
+    }
+}
+
+@media (max-width: 495px){
+    
+    .kalamallaince{
+        width: 20rem;
+    }
+    
+    #headerkalam3 h6 , #headerkalam3 p , #headerkalam2 h6 , #headerkalam2 p , .headerkalam2{
+        width: 20rem;
+    }
+    
+    .the{
+        display: none;
+    }
+    
+    .h1part4{
+        font-size: 0.9rem;
+    }
+    
+    .inputemail{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .kollenterure{
+        width: 100%;
+        left: 0;
+    }
+    
+    .btnjoin{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    
+    #headeralliance{
+        width: 90%;
+        height: 25rem;
+        left: 3rem;
+    }
+    
+    .headeralliance1{
+        display: flex;
+    }
+    
+    #headeralliance span{
+        display: none;
+    }
+    
+    .kalamallaince{
+        left: 0;
+        width: 100%;
+    }
+    
+    .ma , .pr , .sh{
+        position: relative;
+        left: 3rem;
+        width: 90%;
+    }
+    
+    .kalamallaince{
+        top: 5rem;
+    }
+    
+    .kollenterure{
+        top: 35rem;
+    }
+    
+    .sortkoll{
+        margin: 0.5rem;
+    }
+    #img3{
+        width: 90%;
+    }
+    
+    #imgkon{
+        width: 25rem;
+    }
+
+}
+
+@media (max-width: 475px){
+    
+    .headerkalam2 , .kalam3{
+        left: 3rem;
+    }
+    
+    .part1{
+        left: -1rem;
+    }
+    
+    #img3{
+        width: 100%;
+    }
+    
+    #sora4{
+        width: 100%;
+    }
+    
+}
+
+@media (max-width: 420px){
+    
+    #img3{
+        width: 90%;
+    }
+    
+    #imgkon{
+        width: 20rem;
+    }
+    
+    .h1part4{
+        font-size: 12px;
+    }
+    
+    .kalampart5 h1 div {
+        font-size: 2rem;
+    }
+    
+    .sortkoll{
+        margin: 0.2rem;
+    }
+
+    #headerkalam2 , #headerkalam3{
+        width: 0;
+    }
+}
+    
+@media (max-width: 402px){
+
+    #headerkalam2 h6 , #headerkalam3 h6{
+        font-size: 2rem;
+    }
+    #headerkalam2 p , #headerkalam3 p{
+        font-size: 1rem;
+    }
+    
+    .part1{
+        top: 25rem;
+    }
+    
+    .kalam2{
+        top: -60rem;
+    }
+    
+    .kalam3{
+        top: 120rem;
+    }
+    
+    .part4{
+        top: 130rem;
+    }
+    
+    .part4backgroundimg{
+        height: 30rem;
+        background-position: 0;
+    }
+    
+    .footerpart4{
+        top: 20rem;
+    }
+    
+    .h1part4 {
+        top: 0rem;
+        position: absolute;
+        top: -5rem;
+    }
+
+    #bars{
+        font-size: 1.2rem;
+    }
+    
+    #img{
+        width: 2.5rem;
+        height: auto;
+    }
+    
+    #brandalliance{
+        font-size: 1.5rem;
+    }
+    
+    .brand{
+        display: flex;
+        justify-content: center;
+        left: 4.5rem;
+        width: 10rem;
+    }
+    
+    .btnPublish{
+        width: 6rem;
+    }
+    
+    #up{
+        font-size: 1rem;
+    }
+    
+    #Publish{
+        font-size: 1rem;
+    }
+    
+    .btnbublish{
+        position: relative;
+    }
+    
+    .kalamsortpart4 h1 {
+        font-size: 1.5rem;
+    }
+    
+    .part4backgroundimg{
+        height: 20rem;
+        top: -7rem;
+    }
+    
+    .h1part4{
+        top: -10rem;
+    }
+    
+    .footerpart4{
+        top: 15rem;
+    }
+    
+    .part5community{
+        top: 200rem;
+    }
+    
+    #part5community{
+        height: 35rem;
+    }
+    
+    .btnbart5{
+        top: 25rem;
+    }
+    
+    .imagspart5{
+        top: 3rem;
+    }
+    
+    .kalampart5{
+        top: 16rem;
+    }
+    .kalampart5 h1 div{
+        font-size: 1.7rem;
+    }
+    
+    .container{
+        height: 295rem;
+    }
+    
+    .emptydiv{
+        top: 196.5rem;
+        height: 40rem;
+    }
+
+    .kalamheader2 h1{
+        font-size: 1.2rem;
+    }
+
+    .kalamallaince {
+        font-size: 1.5rem;
+    }
+
+    #headeralliance{
+        font-size: 3rem;
+    }
+
+}
+@media (max-width: 380px){
+    
+    .kalamallaince{
+        font-size: 1.7rem;
+    }
+    
+    #headeralliance{
+        font-size: 3rem;
+    }
+}
